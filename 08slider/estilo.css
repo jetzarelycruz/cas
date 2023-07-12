@@ -1,0 +1,18 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  }
+  body{
+      text-align: center;
+      background: rgb(2,0,36);
+  background: linear-gradient(rgb(0, 128, 92), white,rgb(255, 0, 234));
+  }
+  button{
+        height: 20px;
+        width: 50px;
+        background-color: pink
+      }
+      v{
+  background: rgb(63,94,251);
+  background: radial-gradient(black, white);
+      }

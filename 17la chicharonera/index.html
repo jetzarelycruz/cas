@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicharronera</title>
+   
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="cambiarFondo">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="../img/so (2).jpeg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            13 CHICHARRONERA
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </div>
+                </div>
+        </div>
+    </nav>
+    <center>
+    <h1>LA CHICHARRONERA</h1><hr>
+    <img src="funcion.png" width="50px" height="100px">
+    <table>
+        <tr>
+            <td>a<input type="range" id="r1" value="0" min="0" max="100"><span id="vr1">0</span></td>
+        </tr>
+        <tr>
+             <td>b<input type="range" id="r2" value="0" min="0" max="100"><span id="vr2">0</span></td>
+        </tr>
+        <tr>
+            <td>c<input type="range" id="r3" value="0" min="0" max="100"><span id="vr3">0</span></td>
+        </tr>
+    </table>
+    <br><br>
+    <h3>ECUASION</h3>
+    <div id="valores"> ax<sup>2</sup> + bx + c= 0</div>
+    <br><br>
+    <h3>RESULTADO</h3><br><br>
+
+      <div id="resultado"></div>
+      <div id="resultado2"></div>
+   
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZODIACO</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="lafecha()">
+    <center>
+<h1>SIGNO ZODIACAL</h1>
+<hr>
+<table>
+    <tr>
+        <td>Dia<input type="range" id="dia" value="1" min="1" max="31"><span id="vdia">0</span></td>
+    </tr>
+    <tr>
+        <td>Mes
+            <select id="mes">
+                <option value="1">ENERO</option>
+                <option value="2">FEBRERO</option>
+                <option value="3">MARZO</option>
+                <option value="4">ABRIL</option>
+                <option value="5">MAYO</option>
+                <option value="6">JUNIO</option>
+                <option value="7">JULIO</option>
+                <option value="8">AGOSTO</option>
+                <option value="9">SEPTIEMBRE</option>
+                <option value="10">OCTUBRE</option>
+                <option value="11">NOVIEMBRE</option>
+                <option value="12">DICIEMBRE</option>
+            </select>
+        </td>
+    </tr>
+</table>
+<br><br>
+<div id="fecha"></div>
+<br>
+<br>
+<div id="signo">si</div>
+    <script src="main.js"></script>
+</body>
+</html>

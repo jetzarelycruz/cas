@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+        text-align: center;
+        background: rgb(2,0,36);
+    background: linear-gradient(rgb(3, 54, 150),rgb(127, 197, 255) ,rgb(34, 54, 70) );
+    }
+    #areaResultado {
+      width: 150pt;
+      height: 14pt;,red
+      margin-top: 5px;
+    }black 
+    
+    input{
+      margin-top: 2px;
+    }
+    
+    button{
+      margin-top: 2px;
+    }
+      v{
+    background: rgb(16, 28, 87);
+    background: radial-gradient(black, white);
+        }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+     <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<center>
+<body onunload-"generar()">
+  <h1>TABLA DE MULTIPLICAR</h1>
+   <hr color="purple" width="100%" align="left" size="10">
+  <form>
+    <input type="range" onchange="generar()" min="0" max="100" value="50" id="n">
+    <label id="vn">50</label>
+    <div id="res"></div>
+    <button onlick="borrar()" id="borra" 
+    >BORRA</button>
+    </form>
+    
+<script src="main.js"></script>
+</center>
+  </body>
+</html>

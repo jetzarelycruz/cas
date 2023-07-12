@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width
+
+initial-scale=1">
+<link rel="stylesheet" href="estilo.css">
+
+<title>slider</title>
+
+</head>
+<body bgcolor="pink"></body>
+<body>
+
+<h1>slider</h1>
+ <hr color="red" width="100%" align="left" size="10">
+<input type="range" onchange="cambiar ()" value |="0" min="0" max="100" id="v">
+
+<h1 id="valor">0</h1>
+
+<script>
+
+const cambiar=()=>{
+
+document.querySelector("#valor").innerHTML =document.querySelector("#v").value;
+
+}
+
+</script>
+
+</body>
+
+</html>
